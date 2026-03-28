@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <defs>
+    <style>
+      .bg { fill: #FFFFFF; }
+      .mountain { fill: #5C5C5C; }
+      .river { fill: none; stroke: #6B9B9C; stroke-width: 8; stroke-linecap: round; }
+      .river-light { fill: none; stroke: #8FB5B6; stroke-width: 4; stroke-linecap: round; }
+    </style>
+  </defs>
+  
+  <!-- 白色背景 -->
+  <rect class="bg" width="200" height="200"/>
+  
+  <!-- 山形 - 简化为向上箭头演变 -->
+  <!-- 主峰 -->
+  <polygon class="mountain" points="100,40 140,110 120,110 100,75 80,110 60,110"/>
+  
+  <!-- 侧峰 -->
+  <polygon class="mountain" points="60,110 85,70 100,90" opacity="0.7"/>
+  <polygon class="mountain" points="140,110 115,70 100,90" opacity="0.7"/>
+  
+  <!-- 流动的弧线 - 川的象征，形成S字母 -->
+  <!-- S的上半部分 -->
+  <path class="river" d="M 50,125 Q 100,100 150,125"/>
+  
+  <!-- S的下半部分 -->
+  <path class="river" d="M 50,155 Q 100,180 150,155"/>
+  
+  <!-- 中间连接 - 形成完整S -->
+  <path class="river-light" d="M 150,125 Q 130,140 150,155"/>
+  <path class="river-light" d="M 50,155 Q 70,140 50,125"/>
+  
+  <!-- 底部 subtle 地平线 -->
+  <line stroke="#5C5C5C" stroke-width="2" x1="40" y1="170" x2="160" y2="170" opacity="0.3"/>
+  
+</svg>

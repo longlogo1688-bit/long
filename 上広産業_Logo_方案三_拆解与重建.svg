@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <defs>
+    <style>
+      .bg { fill: #FFFFFF; }
+      .block { fill: #3D4F5F; }
+      .block-light { fill: #5A6E7F; }
+      .outline { fill: none; stroke: #3D4F5F; stroke-width: 2; }
+    </style>
+  </defs>
+  
+  <!-- 白色背景 -->
+  <rect class="bg" width="200" height="200"/>
+  
+  <!-- 四个几何块组成広字 - 拆解与重建概念 -->
+  <!-- 块1：左上 - 轻微错位 -->
+  <rect class="block" x="55" y="50" width="35" height="35" rx="3" transform="rotate(-5 72.5 67.5)"/>
+  
+  <!-- 块2：右上 - 轻微错位 -->
+  <rect class="block-light" x="110" y="45" width="35" height="35" rx="3" transform="rotate(3 127.5 62.5)"/>
+  
+  <!-- 块3：左下 - 轻微错位 -->
+  <rect class="block-light" x="50" y="105" width="35" height="35" rx="3" transform="rotate(4 67.5 122.5)"/>
+  
+  <!-- 块4：右下 - 轻微错位 -->
+  <rect class="block" x="115" y="110" width="35" height="35" rx="3" transform="rotate(-3 132.5 127.5)"/>
+  
+  <!-- 连接线 - 暗示重组 -->
+  <line class="outline" x1="90" y1="67" x2="110" y2="65" stroke-dasharray="4,2"/>
+  <line class="outline" x1="67" y1="90" x2="65" y2="110" stroke-dasharray="4,2"/>
+  <line class="outline" x1="90" y1="122" x2="110" y2="120" stroke-dasharray="4,2"/>
+  <line class="outline" x1="127" y1="90" x2="125" y2="110" stroke-dasharray="4,2"/>
+  
+  <!-- 中心连接点 -->
+  <circle fill="#3D4F5F" cx="100" cy="100" r="4"/>
+  
+</svg>

@@ -1,0 +1,5 @@
+\doubao-free-api\
+\.git\
+node_modules\
+\.openclaw\
+*.log
