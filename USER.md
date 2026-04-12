@@ -10,7 +10,14 @@ _Learn about the person you're helping. Update this as you go._
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+### 当前业务
+- **主业**: Logo 设计师，有成熟设计能力，需要通过抖音+视频号内容获取更多接单流量
+- **价格区间**: ¥800 - ¥5000，做中高端市场
+- **内容策略**: 蹭热点 + 知名品牌 Logo 重设计，自带流量，展示设计实力
+- **中长期**: Token电力出口内容创业，双轨推进
+
+### 技能学习
+- 希望小龙具备 Hermes 风格自主学习能力，自动沉淀经验，保持对话连续性
 
 ---
 
